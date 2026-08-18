@@ -1,0 +1,85 @@
+/* ================================
+   RESPONSIVE - PAGES FILIALES
+================================ */
+
+
+/* Tablette */
+@media (max-width: 992px) {
+
+    .hero-filiale {
+        padding: 60px 20px;
+    }
+
+    .hero-filiale h1 {
+        font-size: 40px;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .hero-filiale {
+        text-align: center;
+    }
+
+
+    .hero-filiale h1 {
+        font-size: 30px;
+    }
+
+
+    .hero-filiale p {
+        font-size: 16px;
+    }
+
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    .title-wrapper img {
+        width: 180px;
+        height: auto;
+    }
+
+}
+
+
+/* Petit mobile */
+@media (max-width: 480px) {
+
+
+    .hero-filiale h1 {
+        font-size: 26px;
+    }
+
+
+    .btn-primary-action {
+        width: 100%;
+        font-size: 15px;
+    }
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color:#333;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    letter-spacing:-0.5px;
+}
