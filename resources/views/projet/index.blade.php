@@ -1499,7 +1499,7 @@
 
                         <div class="dg-project-image-small">
 
-                            <img src="{{ asset('/soundiata3D-1.jpg') }}" alt="Sogolon Kondé - Projet immobilier">
+                            <img src="{{ asset('/soundiata3D1.jpg') }}" alt="Sogolon Kondé - Projet immobilier">
 
                         </div>
 
@@ -1508,7 +1508,7 @@
 
                     <div class="dg-project-image-large">
 
-                        <img src="{{ asset('/sogolon3D-1.jpg') }}" alt="Sogolon Kondé - DIABOSS">
+                        <img src="{{ asset('/sogolon3D1.jpg') }}" alt="Sogolon Kondé - DIABOSS">
 
                     </div>
 
@@ -1608,6 +1608,7 @@
 
 
                 <div class="dg-project-main">
+
 
                     <div class="dg-project-image-large">
 
@@ -1731,7 +1732,7 @@
 
                     <div class="dg-project-image-large">
 
-                        <img src="{{ asset('/sogolon3D-1.jpg') }}" alt="Cité des Armées">
+                        <img src="{{ asset('/sogolon3D1.jpg') }}" alt="Cité des Armées">
 
                     </div>
 
@@ -1740,7 +1741,7 @@
 
                         <div class="dg-project-image-small">
 
-                            <img src="{{ asset('/soundiata3D-1.jpg') }}" alt="Cité des Armées - Résidence">
+                            <img src="{{ asset('/soundiata3D1.jpg') }}" alt="Cité des Armées - Résidence">
 
                         </div>
 
