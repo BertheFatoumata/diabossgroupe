@@ -2817,7 +2817,7 @@
 
                 <a href="{{ url('/projet#soundiata') }}" class="dg-project-large">
 
-                    <img src="{{ asset('soundiata3D1.jpg') }}" alt="Cité Soundiata">
+                    <img src="{{ asset('/soundiata3D-3.png') }}" alt="Cité Soundiata">
 
                     <div class="dg-project-content">
 
@@ -2842,7 +2842,7 @@
 
                     <a href="{{ url('/projet#sogolon') }}" class="dg-project-small">
 
-                        <img src="{{ asset('sogolon3D1.jpg') }}" alt="Sogolon Kondé">
+                        <img src="{{ asset('/soundiata3D-1.jpg') }}" alt="Sogolon Kondé">
 
                         <div class="dg-project-content">
 
@@ -2861,7 +2861,7 @@
 
                     <a href="{{ url('/projet#samory') }}" class="dg-project-small">
 
-                        <img src="{{ asset('sogolon3D.jpg') }}" alt="Samory Touré">
+                        <img src="{{ asset('/soundiata.png') }}" alt="Samory Touré">
 
                         <div class="dg-project-content">
 
