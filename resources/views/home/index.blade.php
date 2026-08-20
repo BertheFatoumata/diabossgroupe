@@ -2842,7 +2842,7 @@
 
                     <a href="{{ url('/projet#sogolon') }}" class="dg-project-small">
 
-                        <img src="{{ asset('/villa.png') }}" alt="Sogolon Kondé">
+                        <img src="{{ asset('/Sogolon.png') }}" alt="Sogolon Kondé">
 
                         <div class="dg-project-content">
 
