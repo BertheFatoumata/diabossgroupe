@@ -22,7 +22,6 @@ class MailController extends Controller
         $email = $request->input('email');
         $message = $request->input('message');
 
-        dd($nom, $email, $message);
 
         $mail = new PHPMailer(true);
 

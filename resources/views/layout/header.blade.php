@@ -11,10 +11,11 @@
 
         
         <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.linkedin.com/in/diaboss-groupe-21010b382?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="linkedin"><i class="bi bi-linkedin"></i></a>
           <a href="https://www.facebook.com/TeamsDiaboss" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/diabossgroupe?utm_source=qr&igsh=eW9vNnUwdWNsa3Z6" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://vm.tiktok.com/ZS9kbxF7eMSNC-EYifW/"  class="tiktok" target="_blank"><i class="bi bi-tiktok"></i></a>
+
         </div>
       </div>
 

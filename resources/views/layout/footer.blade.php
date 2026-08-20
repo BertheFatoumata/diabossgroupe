@@ -58,7 +58,6 @@ form.contact-form label{ font-size:.82rem; font-weight:600; color: var(--ink-sof
         <div class="row"><strong>Adresse</strong><span>Baco-djicoroni golf , rue:782 , porte:2108</span></div>
         <div class="row"><strong>Téléphone</strong><span>+223 60 55 55 89 /+223 75 44 71 13</span></div>
         <div class="row"><strong>E-mail</strong><span>diabossgroupe@gmail.com</span></div>
-        <div class="row"><strong>Filiales</strong><span>Chaque filiale peut aussi être contactée directement depuis sa page</span></div>
       </div>
 <form class="contact-form" action="{{ route('envoyer.email') }}" method="POST">
     @csrf
