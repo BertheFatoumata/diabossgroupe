@@ -2649,7 +2649,7 @@
 
                 <a href="{{ url('/mhmmateriaux') }}" class="dg-luxury-filiale">
 
-                    <img src="{{('Mh4.avif')}}"
+                    <img src="{{asset('Mh4.avif')}}"
                         alt="Finition intérieure MHM Matériaux" class="mhm-gallery img-fluid">
                     <div class="dg-luxury-filiale-content">
 
@@ -2678,7 +2678,7 @@
 
                 <a href="{{ url('/byimmo') }}" class="dg-luxury-filiale">
 
-                    <img src="{{('D1.jpeg')}}">
+                    <img src="{{asset('D1.jpeg')}}">
                     <div class="dg-luxury-filiale-content">
 
                         <div class="dg-luxury-filiale-index">
@@ -2706,7 +2706,7 @@
 
                 <a href="{{ url('/batijob') }}" class="dg-luxury-filiale">
 
-                    <img src="{{('Bat1.jpeg')}}">
+                    <img src="{{asset('Bat1.jpeg')}}">
                     <div class="dg-luxury-filiale-content">
 
                         <div class="dg-luxury-filiale-index">
@@ -2733,7 +2733,7 @@
 
                 <a href="{{ url('/mddesign') }}" class="dg-luxury-filiale">
 
-                    <img src="{{('M2.jpeg')}}">
+                    <img src="{{asset('M2.jpeg')}}">
                    <div class="dg-luxury-filiale-content">
                         <div class="dg-luxury-filiale-index">
                             07 — DESIGN & ARCHITECTURE
@@ -2817,7 +2817,7 @@
 
                 <a href="{{ url('/projet/#soundiata') }}" class="dg-project-large">
 
-                    <img src="{{ asset('soundiata3D-1.jpg') }}" alt="Cité Soundiata">
+                    <img src="{{ asset('soundiata3D1.jpg') }}" alt="Cité Soundiata">
 
                     <div class="dg-project-content">
 
@@ -2842,7 +2842,7 @@
 
                     <a href="{{ url('/projet/#sogolon') }}" class="dg-project-small">
 
-                        <img src="{{ asset('sogolon3D-1.jpg') }}" alt="Sogolon Kondé">
+                        <img src="{{ asset('sogolon3D1.jpg') }}" alt="Sogolon Kondé">
 
                         <div class="dg-project-content">
 

@@ -46,7 +46,61 @@ form.contact-form label{ font-size:.82rem; font-weight:600; color: var(--ink-sof
 }
 
 /* ---------- responsive ---------- */
-/* ---------- page interne (filiale) ---------- */
+
+@media (max-width: 991px) {
+
+    footer .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    footer.site-footer {
+        padding: 45px 20px 25px;
+    }
+
+    footer .container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .contact-card {
+        padding: 20px;
+    }
+
+    .contact-card .row {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    form.contact-form input,
+    form.contact-form textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .foot-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+}
 
 </style>
 <section class="section section--dark" id="contact">
