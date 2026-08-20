@@ -2815,7 +2815,7 @@
              CITÉ SOUND IATA — GRAND PROJET
              ========================================= -->
 
-                <a href="{{ url('/projet/#soundiata') }}" class="dg-project-large">
+                <a href="{{ url('/projet') }}" class="dg-project-large">
 
                     <img src="{{ asset('soundiata3D1.jpg') }}" alt="Cité Soundiata">
 
@@ -2840,7 +2840,7 @@
 
                 <div class="dg-project-side">
 
-                    <a href="{{ url('/projet/#sogolon') }}" class="dg-project-small">
+                    <a href="{{ url('/projet') }}" class="dg-project-small">
 
                         <img src="{{ asset('sogolon3D1.jpg') }}" alt="Sogolon Kondé">
 
@@ -2859,7 +2859,7 @@
                     </a>
 
 
-                    <a href="{{ url('/projet/#samory') }}" class="dg-project-small">
+                    <a href="{{ url('/projet') }}" class="dg-project-small">
 
                         <img src="{{ asset('sogolon3D.jpg') }}" alt="Samory Touré">
 
