@@ -187,10 +187,15 @@ form.contact-form label{ font-size:.82rem; font-weight:600; color: var(--ink-sof
       </div>
     </div>
   </div>
+
+  
   <div class="container foot-bottom">
     <span>© <span data-year></span> Diaboss Groupe. Tous droits réservés.</span>
     <span>Site multi-pages — 7 filiales</span>
   </div>
+
+
+
 </footer>
 
 <script>
