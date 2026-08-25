@@ -266,6 +266,21 @@
         margin-left: 6px;
     }
 
+   
+    .header-contact-bar {
+        padding-top: 6px;
+        padding-bottom: 10px;
+    }
+
+    .social-links {
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+
+    .header-separator {
+        margin-top: 1px;
+    }
+
 }
 
 /* =====================================================
@@ -427,6 +442,26 @@
     }
 
 }
+
+/* Espace entre les réseaux sociaux et la ligne */
+@media (max-width: 767px) {
+
+    .header-contact-bar {
+        padding-top: 6px;
+        padding-bottom: 12px;
+    }
+
+    .social-links {
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+
+    .header-separator {
+        margin-top: 5px;
+    }
+}
+
+
 </style>
     
     <!-- End Top Bar -->
