@@ -56,6 +56,7 @@
 
 </div>
 
+
 <style>
 
   /* ================================
@@ -163,17 +164,287 @@
     }
 
 }
+
+.header-separator {
+    height: 1px;
+    width: 100%;
+    margin-top: 7px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(201, 152, 47, 0.7),
+        transparent
+    );
+}
+
+  .branding {
+    padding-top: 8px;
+}
+
+/* ================================
+   RESPONSIVITÉ LOGO + NAVBAR
+================================ */
+
+.branding .container {
+    gap: 30px;
+}
+
+.branding .logo {
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.branding .sitename {
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.branding .navmenu {
+    flex-shrink: 0;
+}
+
+
+/* ================================
+   ÉCRANS INTERMÉDIAIRES
+================================ */
+
+@media (max-width: 1199px) {
+
+    .branding .container {
+        gap: 20px;
+    }
+
+    .branding .sitename {
+        font-size: 21px;
+    }
+
+}
+
+
+/* ================================
+   TABLETTES / PETITS ÉCRANS
+================================ */
+
+@media (max-width: 991px) {
+
+    .branding .container {
+        gap: 15px;
+    }
+
+    .branding .logo img {
+        width: 48px;
+    }
+
+    .branding .sitename {
+        font-size: 19px;
+        margin-left: 8px;
+    }
+
+}
+
+
+/* ================================
+   TÉLÉPHONE
+================================ */
+
+@media (max-width: 767px) {
+
+    .branding .container {
+        gap: 10px;
+    }
+
+    .branding .logo {
+        max-width: calc(100% - 55px);
+    }
+
+    .branding .logo img {
+        width: 42px;
+    }
+
+    .branding .sitename {
+        font-size: 17px;
+        white-space: nowrap;
+        margin-left: 6px;
+    }
+
+}
+
+/* =====================================================
+   DIABOSS GROUPE — HEADER RESPONSIVE
+   ===================================================== */
+
+/* ---------- STRUCTURE DESKTOP ---------- */
+
+.branding .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    min-width: 0;
+}
+
+.branding .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    flex-shrink: 1;
+}
+
+.branding .logo img {
+    width: 55px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.branding .sitename {
+    color: white;
+    margin: 0;
+    font-size: 25px;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+.branding .navmenu {
+    flex-shrink: 0;
+}
+
+
+/* =====================================================
+   GRAND ÉCRAN / PETIT DESKTOP
+   ===================================================== */
+
+@media (max-width: 1199px) {
+
+    .branding .container {
+        gap: 25px;
+    }
+
+    .branding .logo img {
+        width: 50px;
+    }
+
+    .branding .sitename {
+        font-size: 21px;
+    }
+
+}
+
+
+/* =====================================================
+   TABLETTE
+   ===================================================== */
+
+@media (max-width: 991px) {
+
+    .branding .container {
+        gap: 20px;
+    }
+
+    .branding .logo {
+        gap: 8px;
+    }
+
+    .branding .logo img {
+        width: 45px;
+    }
+
+    .branding .sitename {
+        font-size: 19px;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    .branding {
+        padding: 8px 0;
+    }
+
+    .branding .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 10px;
+    }
+
+    .branding .logo {
+        max-width: calc(100% - 55px);
+        gap: 7px;
+    }
+
+    .branding .logo img {
+        width: 42px;
+    }
+
+    .branding .sitename {
+        font-size: 17px;
+        white-space: nowrap;
+    }
+
+    .branding .navmenu {
+        flex-shrink: 0;
+    }
+
+    .branding .mobile-nav-toggle {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+}
+
+
+/* =====================================================
+   TRÈS PETITS TÉLÉPHONES
+   ===================================================== */
+
+@media (max-width: 400px) {
+
+    .branding .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .branding .logo {
+        gap: 5px;
+    }
+
+    .branding .logo img {
+        width: 37px;
+    }
+
+    .branding .sitename {
+        font-size: 15px;
+    }
+
+    .branding .mobile-nav-toggle {
+        font-size: 27px;
+    }
+
+}
 </style>
     
     <!-- End Top Bar -->
 
-    <div></div>
-    <div></div>
-    <div></div>
     
+    <samp><div></div></samp>
+       <!-- Ligne de séparation -->
+<div class="header-separator"></div>
+
+<div class="branding d-flex align-items-center"
+     style="background: #0d1b2a">
+     <br>
 
 <div class="branding d-flex align-items-center"
        style="background: #0d1b2a">
+
+    
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="/" class="logo d-flex align-items-center">
