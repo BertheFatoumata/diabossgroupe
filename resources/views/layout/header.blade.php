@@ -277,9 +277,9 @@
         margin-bottom: 4px;
     }
 
-    .header-separator {
-        margin-top: 1px;
-    }
+    /* .header-separator {
+        margin-top: 0px;
+    } */
 
 }
 
@@ -469,15 +469,11 @@
     
     <samp><div></div></samp>
        <!-- Ligne de séparation -->
-<div class="header-separator"></div>
 
-<div class="branding d-flex align-items-center"
-     style="background: #0d1b2a">
-     <br>
+
 
 <div class="branding d-flex align-items-center"
        style="background: #0d1b2a">
-
     
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
