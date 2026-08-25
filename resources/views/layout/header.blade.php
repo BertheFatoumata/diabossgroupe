@@ -59,9 +59,11 @@
 
 <style>
 
-  /* ================================
-   TOPBAR RESPONSIVE
-================================ */
+ /* =====================================================
+   HEADER DIABOSS GROUPE — RESPONSIVE FINAL
+   ===================================================== */
+
+/* ---------- DESKTOP ---------- */
 
 .header-contact-bar {
     display: flex;
@@ -74,7 +76,6 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .contact-info a,
@@ -87,142 +88,21 @@
     font-size: 13px;
 }
 
-.contact-info i {
-    font-size: 15px;
-}
-
 .social-links {
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-shrink: 0;
 }
 
 .social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     text-decoration: none;
 }
 
 
-/* ================================
-   TABLETTE
-================================ */
-
-@media (max-width: 767px) {
-
-    .header-contact-bar {
-        flex-direction: column;
-        justify-content: center;
-        gap: 8px;
-        padding: 8px 15px;
-    }
-
-    .contact-info {
-        width: 100%;
-        justify-content: center;
-        gap: 5px 15px;
-    }
-
-    .contact-info a,
-    .phone-info {
-        font-size: 11px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .social-links {
-        display: flex !important;
-        justify-content: center;
-        width: 100%;
-        gap: 15px;
-    }
-
-}
-
-
-/* ================================
-   PETIT TELEPHONE
-================================ */
-
-@media (max-width: 400px) {
-
-    .contact-info {
-        flex-direction: column;
-        gap: 4px;
-    }
-
-    .contact-info a,
-    .phone-info {
-        font-size: 10px;
-    }
-
-    .social-links {
-        gap: 12px;
-    }
-
-}
-
-.header-separator {
-    height: 1px;
-    width: 100%;
-    background: linear-gradient(
-        to right,
-        transparent,
-        rgba(201, 152, 47, 0.7),
-        transparent
-    );
-}
-
-  .branding {
-    padding-top: 8px;
-}
-
-/* ================================
-   RESPONSIVITÉ LOGO + NAVBAR
-================================ */
-
-.branding .container {
-    gap: 30px;
-}
-
-.branding .logo {
-    flex-shrink: 1;
-    min-width: 0;
-}
-
-.branding .sitename {
-    white-space: nowrap;
-    margin-left: 10px;
-}
-
-.branding .navmenu {
-    flex-shrink: 0;
-}
-
-
-/* ================================
-   ÉCRANS INTERMÉDIAIRES
-================================ */
-
-@media (max-width: 1199px) {
-
-    .branding .container {
-        gap: 20px;
-    }
-
-    .branding .sitename {
-        font-size: 21px;
-    }
-
-}
-
-
-/* ================================
-   TABLETTES / PETITS ÉCRANS
-================================ */
+/* =====================================================
+   TABLETTES
+   ===================================================== */
 
 @media (max-width: 991px) {
 
@@ -230,185 +110,109 @@
         gap: 15px;
     }
 
-    .branding .logo img {
-        width: 48px;
-    }
-
-    .branding .sitename {
-        font-size: 19px;
-        margin-left: 8px;
-    }
-
-}
-
-
-/* ================================
-   TÉLÉPHONE
-================================ */
-
-@media (max-width: 767px) {
-
-    .branding .container {
-        gap: 10px;
-    }
-
-    .branding .logo {
-        max-width: calc(100% - 55px);
-    }
-
-    .branding .logo img {
-        width: 42px;
-    }
-
-    .branding .sitename {
-        font-size: 17px;
-        white-space: nowrap;
-        margin-left: 6px;
-    }
-
-   
-    .header-contact-bar {
-        padding-top: 6px;
-        padding-bottom: 10px;
-    }
-
-    .social-links {
-        margin-top: 2px;
-        margin-bottom: 4px;
-    }
-
-    /* .header-separator {
-        margin-top: 0px;
-    } */
-
-}
-
-/* =====================================================
-   DIABOSS GROUPE — HEADER RESPONSIVE
-   ===================================================== */
-
-/* ---------- STRUCTURE DESKTOP ---------- */
-
-.branding .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    min-width: 0;
-}
-
-.branding .logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    min-width: 0;
-    flex-shrink: 1;
-}
-
-.branding .logo img {
-    width: 55px;
-    height: auto;
-    object-fit: contain;
-    flex-shrink: 0;
-}
-
-.branding .sitename {
-    color: white;
-    margin: 0;
-    font-size: 25px;
-    line-height: 1.1;
-    white-space: nowrap;
-}
-
-.branding .navmenu {
-    flex-shrink: 0;
-}
-
-
-/* =====================================================
-   GRAND ÉCRAN / PETIT DESKTOP
-   ===================================================== */
-
-@media (max-width: 1199px) {
-
-    .branding .container {
-        gap: 25px;
-    }
-
-    .branding .logo img {
-        width: 50px;
-    }
-
-    .branding .sitename {
-        font-size: 21px;
-    }
-
-}
-
-
-/* =====================================================
-   TABLETTE
-   ===================================================== */
-
-@media (max-width: 991px) {
-
-    .branding .container {
-        gap: 20px;
-    }
-
     .branding .logo {
         gap: 8px;
+        min-width: 0;
     }
 
     .branding .logo img {
         width: 45px;
+        flex-shrink: 0;
     }
 
     .branding .sitename {
-        font-size: 19px;
+        font-size: 20px;
+        white-space: nowrap;
     }
 
 }
 
 
 /* =====================================================
-   MOBILE
+   TÉLÉPHONES
+   On garde uniquement :
+   LOGO + DIABOSS GROUPE + MENU
    ===================================================== */
 
 @media (max-width: 767px) {
 
+    /* --- On cache complètement la topbar --- */
+
+    .header-contact-bar {
+        display: none !important;
+    }
+
+    .topbar {
+        display: none !important;
+    }
+
+    /* --- Branding principal --- */
+
     .branding {
         padding: 8px 0;
+        min-height: 60px;
     }
 
     .branding .container {
         width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        gap: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 8px;
     }
 
+    /* --- Logo + titre --- */
+
     .branding .logo {
+        display: flex;
+        align-items: center;
+
+        min-width: 0;
         max-width: calc(100% - 55px);
+
         gap: 7px;
     }
 
     .branding .logo img {
-        width: 42px;
-    }
-
-    .branding .sitename {
-        font-size: 17px;
-        white-space: nowrap;
-    }
-
-    .branding .navmenu {
+        width: 40px;
+        height: auto;
         flex-shrink: 0;
     }
 
+    .branding .sitename {
+        margin: 0;
+        padding: 0;
+
+        font-size: clamp(15px, 5vw, 19px);
+        line-height: 1.1;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* --- Menu hamburger --- */
+
+    .branding .navmenu {
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+
     .branding .mobile-nav-toggle {
+        display: block;
+
         font-size: 30px;
-        margin-left: 5px;
+        line-height: 1;
+
+        margin: 0;
+        padding: 4px;
+
+        color: white;
+        cursor: pointer;
     }
 
 }
@@ -420,17 +224,24 @@
 
 @media (max-width: 400px) {
 
+    .branding {
+        min-height: 56px;
+        padding: 6px 0;
+    }
+
     .branding .container {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 5px;
     }
 
     .branding .logo {
         gap: 5px;
+        max-width: calc(100% - 50px);
     }
 
     .branding .logo img {
-        width: 37px;
+        width: 34px;
     }
 
     .branding .sitename {
@@ -443,24 +254,27 @@
 
 }
 
-/* Espace entre les réseaux sociaux et la ligne */
-@media (max-width: 767px) {
 
-    .header-contact-bar {
-        padding-top: 6px;
-        padding-bottom: 12px;
+/* =====================================================
+   TOUT PETIT ÉCRAN
+   Exemple : anciens petits Android / iPhone SE
+   ===================================================== */
+
+@media (max-width: 340px) {
+
+    .branding .logo img {
+        width: 30px;
     }
 
-    .social-links {
-        margin-top: 3px;
-        margin-bottom: 5px;
+    .branding .sitename {
+        font-size: 14px;
     }
 
-    .header-separator {
-        margin-top: 5px;
+    .branding .mobile-nav-toggle {
+        font-size: 25px;
     }
+
 }
-
 
 </style>
     
