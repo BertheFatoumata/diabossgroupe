@@ -21,6 +21,7 @@
         </div>
 
         <!-- Réseaux sociaux -->
+        <samp>
         <div class="social-links">
 
             <a href="https://www.linkedin.com/in/diaboss-groupe-21010b382?utm_source=share_via&utm_content=profile&utm_medium=member_android"
@@ -48,6 +49,8 @@
             </a>
 
         </div>
+
+        </samp>
 
     </div>
 
@@ -167,6 +170,7 @@
     <div></div>
     <div></div>
     <div></div>
+    
 
 <div class="branding d-flex align-items-center"
        style="background: #0d1b2a">
