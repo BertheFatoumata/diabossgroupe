@@ -168,7 +168,6 @@
 .header-separator {
     height: 1px;
     width: 100%;
-    margin-top: 7px;
     background: linear-gradient(
         to right,
         transparent,
